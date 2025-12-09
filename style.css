@@ -1,0 +1,62 @@
+body {
+    background-color: #303336;
+    opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+        }
+}
+
+footer, header {
+    font-family: 'Verdana';
+    color: lightgray;
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+h1, h2, h3, h4, span, strong, #btnEN{
+    color: lightgray;
+}
+
+#btnCZ{
+  color: white;
+}
+
+thead{
+    background-color: #151515;
+    color: lightgray;
+    border-color: red;
+    border-style: hidden;
+}
+
+tbody{
+    background-color: #272829;
+    color: lightgray;
+    border-color: gray;
+    border-style: hidden;
+}
+
+input::placeholder {
+    color: lightgray !important;
+}
+input{
+    color: white !important;
+    background-color: #272829 !important;
+}
+
+@media (max-width: 650px){
+     #table24hour{
+         margin-right: -8px;
+         margin-left: -5px; 
+    }
+    header{
+        flex-flow: column wrap;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
